@@ -33,10 +33,9 @@ export default function AboutMe() {
         </a>
       </div>
       <Image
-
         className="rounded-full w-80 h-80"
         alt="me"
-        src="/assets/me.jpg"
+        src="/assets/images/me.jpg"
         width={200}
         height={200}
       />
