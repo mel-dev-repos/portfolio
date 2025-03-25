@@ -34,3 +34,22 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.gradient-border-box {
+  padding: 1px; /* ضخامت border */
+  border-radius: 1rem;
+  background: linear-gradient(to left, #3ecef2, #680872); /* گرادینت border */
+  display: inline-block;
+}
+
+.gradient-border-box .content {
+  background-color: #1e1e2f; /* رنگ داخل جعبه */
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.gradient-border-box .content img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه زیر عکس */
+}
