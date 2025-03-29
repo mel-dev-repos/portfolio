@@ -8,7 +8,7 @@ export default function Header() {
     },
     {
       title: "Skills & Tools",
-      link: "",
+      link: "#skills",
     },
     {
       title: "Experiences",
